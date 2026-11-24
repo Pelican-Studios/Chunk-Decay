@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "chunkdecay",
+  "version": "${version}",
+  "name": "Chunk Decay",
+  "description": "A Pelican Studios singleplayer minigame: every chunk you leave crumbles into the void behind you. You can never go back.",
+  "authors": [
+    "Pelican Studios"
+  ],
+  "license": "All-Rights-Reserved",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.pelicanstudios.chunkdecay.ChunkDecay"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
